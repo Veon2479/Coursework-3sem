@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/main.cpp
+SFML/Graphics.hpp
+-
+iostream
+-
+

@@ -1,0 +1,7 @@
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/install/strip.dir
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/install/local.dir
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/install.dir
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/list_install_components.dir
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/rebuild_cache.dir
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/edit_cache.dir
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build/CMakeFiles/coursework.dir
