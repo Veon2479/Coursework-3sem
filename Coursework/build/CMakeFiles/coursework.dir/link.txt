@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/coursework.dir/main.cpp.o -o coursework  -lsfml-graphics -lsfml-window -lsfml-system 
