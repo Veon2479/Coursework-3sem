@@ -1,2 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x14\x00C\x00o\x00u\x00r\x00s\x00e\x00w\x00o\x00r\x00k)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Compiled Binary Launcher
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=65536
+Project Target=Coursework,coursework
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
 [Project]
 VersionControlSupport=
