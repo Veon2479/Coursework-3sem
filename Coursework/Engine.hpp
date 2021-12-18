@@ -1,4 +1,5 @@
 #pragma once
+
 #include <SFML/Graphics.hpp>
 #include "Player.hpp"
 
@@ -8,9 +9,14 @@ class Engine
 {
     private:
         RenderWindow gameWin;
+        Vector2f resolution;
         
         Sprite gameBackgroundSprite;
         Texture gameBackgroundTexture;
+        
+       
+        Sprite gameMapSprite;
+        Texture gameMapTexture;
         
         Player gamePlayer;
         
@@ -19,6 +25,8 @@ class Engine
         bool isMovingRight;
         bool isMovingLeft;
         
+        void setGameView(Vector2f pPosition);
+        sf::View gameView;
         
         void input();
         void update(float dtAsSeconds);

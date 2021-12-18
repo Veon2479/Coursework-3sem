@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.cpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.cpp
+Engine.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.hpp
+map.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/map.hpp
+
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.hpp
+SFML/Graphics.hpp
+-
 Player.hpp
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.hpp
 
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.hpp
+SFML/Graphics.hpp
+-
+
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/map.hpp
 SFML/Graphics.hpp
 -
 

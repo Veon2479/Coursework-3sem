@@ -4,6 +4,7 @@
 CMakeFiles/coursework.dir/Engine.cpp.o: ../Engine.cpp
 CMakeFiles/coursework.dir/Engine.cpp.o: ../Engine.hpp
 CMakeFiles/coursework.dir/Engine.cpp.o: ../Player.hpp
+CMakeFiles/coursework.dir/Engine.cpp.o: ../map.hpp
 
 CMakeFiles/coursework.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/coursework.dir/Player.cpp.o: ../Player.hpp

@@ -32,6 +32,8 @@ class Player
         
         Sprite getSprite();
         
+        Vector2f getPosition();
+        
         void moveUp();
         void moveDown();
         void moveRight();

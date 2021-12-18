@@ -11,6 +11,7 @@ Player::Player()
     
     pTexture.loadFromImage(pImage);
     pSprite.setTexture(pTexture);
+    pSprite.setScale(0.5, 0.5);
 
     
     pPosition.x = 500;
@@ -26,6 +27,12 @@ Sprite Player::getSprite()
 {
     return pSprite;
 }
+
+sf::Vector2f Player::getPosition()
+{
+    return pPosition;
+}
+
 
 void Player::moveDown()
 {
@@ -163,7 +170,7 @@ void Player::update(float elapsedTime)
     }
     
     setCurTexture(elapsedTime); 
-    printf("%f ", elapsedTime);
+    //printf("%f ", elapsedTime);
     
     pSprite.setPosition(pPosition);
    // lastUpdatedTime = elapsedTime;
