@@ -6,23 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.cpp
-Engine.hpp
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Classes.hpp
+SFML/Graphics.hpp
+-
+vector
+-
+cmath
+-
 map.hpp
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/map.hpp
+View.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/View.hpp
 
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/View.hpp
 SFML/Graphics.hpp
 -
-Player.hpp
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.hpp
 
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/main.cpp
 SFML/Graphics.hpp
 -
+iostream
+-
+Classes.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Classes.hpp
 
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/map.hpp
 SFML/Graphics.hpp
+-
+string
+-
+fstream
+-
+vector
 -
 

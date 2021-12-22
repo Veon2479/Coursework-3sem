@@ -6,6 +6,6 @@ find_package(PkgConfig REQUIRED)
 
 LINK_LIBRARIES(${MyProject} -lsfml-graphics -lsfml-window -lsfml-system )   
 
-add_executable(coursework Engine.cpp Player.cpp main.cpp)
+add_executable(coursework main.cpp)
 
 install(TARGETS coursework RUNTIME DESTINATION bin)

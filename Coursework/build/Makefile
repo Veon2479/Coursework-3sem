@@ -188,60 +188,6 @@ coursework/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/build
 .PHONY : coursework/fast
 
-Engine.o: Engine.cpp.o
-
-.PHONY : Engine.o
-
-# target to build an object file
-Engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/Engine.cpp.o
-.PHONY : Engine.cpp.o
-
-Engine.i: Engine.cpp.i
-
-.PHONY : Engine.i
-
-# target to preprocess a source file
-Engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/Engine.cpp.i
-.PHONY : Engine.cpp.i
-
-Engine.s: Engine.cpp.s
-
-.PHONY : Engine.s
-
-# target to generate assembly for a file
-Engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/Engine.cpp.s
-.PHONY : Engine.cpp.s
-
-Player.o: Player.cpp.o
-
-.PHONY : Player.o
-
-# target to build an object file
-Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/Player.cpp.o
-.PHONY : Player.cpp.o
-
-Player.i: Player.cpp.i
-
-.PHONY : Player.i
-
-# target to preprocess a source file
-Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/Player.cpp.i
-.PHONY : Player.cpp.i
-
-Player.s: Player.cpp.s
-
-.PHONY : Player.s
-
-# target to generate assembly for a file
-Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/coursework.dir/build.make CMakeFiles/coursework.dir/Player.cpp.s
-.PHONY : Player.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -282,12 +228,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... coursework"
-	@echo "... Engine.o"
-	@echo "... Engine.i"
-	@echo "... Engine.s"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

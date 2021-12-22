@@ -1,16 +1,6 @@
 [
 {
   "directory": "/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/coursework.dir/Engine.cpp.o -c /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.cpp",
-  "file": "/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Engine.cpp"
-},
-{
-  "directory": "/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/coursework.dir/Player.cpp.o -c /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.cpp",
-  "file": "/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Player.cpp"
-},
-{
-  "directory": "/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/build",
   "command": "/usr/bin/c++   -g -o CMakeFiles/coursework.dir/main.cpp.o -c /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/main.cpp",
   "file": "/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/main.cpp"
 }
