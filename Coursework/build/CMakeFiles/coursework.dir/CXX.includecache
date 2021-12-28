@@ -13,10 +13,30 @@ vector
 -
 cmath
 -
+iostream
+-
 map.hpp
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/map.hpp
 View.hpp
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/View.hpp
+
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Menu.hpp
+SFML/Graphics.hpp
+-
+
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Resources.hpp
+SFML/Graphics.hpp
+-
+Menu.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Menu.hpp
+vector
+-
+sstream
+-
+list
+-
+Classes.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Classes.hpp
 
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/View.hpp
 SFML/Graphics.hpp
@@ -27,8 +47,12 @@ SFML/Graphics.hpp
 -
 iostream
 -
-Classes.hpp
-/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Classes.hpp
+list
+-
+unistd.h
+-
+Resources.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/Resources.hpp
 
 /home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/map.hpp
 SFML/Graphics.hpp
@@ -39,4 +63,6 @@ fstream
 -
 vector
 -
+View.hpp
+/home/andryusha/Workspace/Repo/C/Coursework-3sem/Coursework/View.hpp
 

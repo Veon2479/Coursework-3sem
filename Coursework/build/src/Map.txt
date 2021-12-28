@@ -1,46 +1,46 @@
 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-0                                                                                                                                                                  
-0                                                                                                                                                               
-0                                                                                                                                                           
-0                                                                                                                                                                                       
-0                                                                                                                                                                                   
-0                                                                                                                                                                                       
-0                                                                                                                                                                                           
-0                                                                                                                                                                                                   
-0                                      bbbbbbbbbbbbbbbb                                                                                                                                         
-0                                      b              b                                                                                                                
-0                                      b              b                                                                                                                                    
-0                                      b              b                                                                                                                            
-0                                      b              b                                                                                                                            
-0                                      b              b                                                                                                                
-0                                      b              b                                                                                            
-0                                      b              b                                                                                        
-0                                      b              b                                                                                       
-0                                      b              b                                                                                   
-0                                      b              b                                                                                           
-0                                      b              b                                                                                       
-0                                      b              b                                                                                          
-0                                      b              b                                                                                       
-0                                      b              b                                                                               
-0                                      b              b                                                                                   
-0                                      b              b                                                                                   
-0                                      b              b                                                                                               
-0                                      b              b                                                                                   
-0                                      b              b                                                                                   
-0                                      b              b                                                                                               
-0                                      b              b                                                                                               
-0                                      b              b                                                                                                               
-0                                      b              b                                                                                                           
-0                                      b              b                                                                                           
-0                                      b              b                                                                                               
-0                                      b              b                                                                                                   
-b                                      e              e                                                                                                       
-b                                      e              e                                                                                                           
-b       g    g    g    g    g    g     e              e                                                                                                                               
-bzzzzbdddddddddddddddddddddddddddddddddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddddddddddddddddddddddddddddddddddddd
+0                                                                                                                                         0                        
+0                                                                                                                                         0                     
+0                                                                                                                                         0                 
+0                                                                                                                                         0                                             
+0 Во время разговора со слизеринцем он солгал о своём самочувствии, а вскоре его нос начал удлиняться.                                    0                                         
+0                                                                                                                                         0                                             
+0                                                                                                                                         0                                                 
+0                                                                                                                                         0                                                         
+0                                      bbbbbbbbbbbbbbbb                                                                                   0                                                     
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                            
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                                                
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                                        
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                                        
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                            
+0                                      bzzzzbbbbbbbbbbb                                                                                   0        
+0                                      bzzzzzzzzzzzzzzb                                                                                   0    
+0                                      bzzzzzzzzzzzzzzb                                                                                   0   
+0                                      bzzzzzzzzzzzzzzb                                                                                   0
+0                                      bzzzzzzzzzzzzzzb                                                                                   0       
+0                                      bzzzzzzzzzzzzzzb                                                                                   0   
+0                                      bzzzzbbbbbbbbbbb                                                                                   0      
+0                                      bzzzzzzzzzzzzzzb                                                                                   0   
+0                                      bzzzzzzzzzzzzzzb                                                                                   0
+0                                      bzzzzzzzzzzzzzzb                                                                                   0
+0                                      bzzzzzzzzzzzzzzb                                                                                   0
+0                                      bzzzzzzzzzzzzzzb                                                                                   0           
+0                                      bzzzzbbbbbbbbbbb                                                                                   0
+0                                      bzzzzzzzzzzzzzzb                                                                                   0
+0                                      bzzzzzzzzzzzzzzb                                                                                   0           
+0                                      bzzzzzzzzzzzzzzb                                                                                   0           
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                           
+0                                      bzzzzzzzzzzzzzzb                                                                                   0                       
+0                                      bzzzzbbbbbbbbbbb                                                                                   0       
+0                                      bzzzzzzzzzzzzzzb                                                                                   0           
+0                                      bzzzzzzzzzzzzzzb                                                                                   0               
+0                                      ezzzzzzzzzzzzzze                                                                                   0                   
+0                                      ezzzzzzzzzzzzzze                                                                                   0                       
+0                                      ezzzzzzzzzzzzzze                                                                                   0                                           
+dddddddddddddddddddddddddddddddddddddddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdddddddddddddddddddddddddddddddddddddddd
 s    s                                                                                                                                  
 s    s                                                                                                                                          
-s    s                                                                                                                                                  
+s                                                                                                                                                       
 s                                                                                                                                               
 s00000000000    00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000                                                                                                                                       
 s                                                                                                                                           

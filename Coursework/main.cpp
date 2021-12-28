@@ -1,95 +1,117 @@
 #include <SFML/Graphics.hpp>
 #include <iostream>
-#include "Classes.hpp"
+#include <list>
+#include <unistd.h>
+
+#include "Resources.hpp"
 
 using namespace sf;
 
-Image mapImage;
-Image heroImage;
+bool isDead;
 
-void loadResources()
-{
-    std::cout << "LOG: loading resources" << std::endl;
-   	heroImage.loadFromFile("src/copia.png");
-    mapImage.loadFromFile("src/map.png");
-    loadMap();
-}
+float rslX = 683, rslY = 384;
 
 bool startGame(RenderWindow &window)
 {
+    window.setMouseCursorVisible(false);
+    
+    Clock clock;
+    clock.restart();
 
-    view.reset(FloatRect(0, 0, 683, 384));
+    float time = 0;
+   
+    view.reset(FloatRect(0, 0, rslX, rslY));
 
 
-	Player player(heroImage, "Player", 4000, 2000, 0, 0);
-    Sprite mapSprite;
-    Texture mapTexture;
+	Player player(heroImage, "Player", 41*32, 34*32, 0, 0);
+
+    loadEntities();
+
     mapTexture.loadFromImage(mapImage);
     mapSprite.setTexture(mapTexture);
-	
-	Clock clock;
-   // window.clear(Color(77, 83, 140));
-	while (window.isOpen())
-	{
 
-        window.clear(Color::White);
 
-		float time = clock.getElapsedTime().asSeconds();
+    while (window.isOpen())
+    {
 
-		clock.restart();
-		time = time / 2;
+        window.clear(Color::Black);
 
-		Event event;
-		while (window.pollEvent(event))
-		{
-			if (event.type == sf::Event::Closed)
-				window.close();
-		}
+        time = clock.getElapsedTime().asSeconds();
 
-		if (Keyboard::isKeyPressed(Keyboard::Tab)) 
+        clock.restart();
+        
+        time = time / 2;
+
+        Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        if (Keyboard::isKeyPressed(Keyboard::Tab)) 
         { 
             return true; 
         }
-		if (Keyboard::isKeyPressed(Keyboard::Escape)) 
+        if (Keyboard::isKeyPressed(Keyboard::Escape)) 
         { 
             return false; 
         }
-
-        for (int i = 0; i < MAP_HEIGHT; i++)
-        for ( int j = 0; j < MAP_WIDTH; j++)
-        {
-            if (i<(player.y+400)/32 && i>(player.y - 383)/32 && j<(player.x + 683)/32 && j>(player.x - 683)/32 )
-            {
-            if (Tile_Map[i][j] == ' ')
-                mapSprite.setTextureRect(IntRect(0, 0, 32, 32));
-            else if (Tile_Map[i][j] == 's')
-                mapSprite.setTextureRect(IntRect(32, 0, 32, 32));
-        else if (Tile_Map[i][i] == '0'|| Tile_Map[i][j] == 'b' || Tile_Map[i][j] == 'g' || Tile_Map[i][j] == 'd' )
-                mapSprite.setTextureRect(IntRect(64, 0, 32, 32));
-            else 
-                mapSprite.setTextureRect(IntRect(96, 0, 32, 32));
         
-            mapSprite.setPosition(j*32, i*32);
-            window.draw(mapSprite);
-            }
+            drawMap(window, player.x, player.y);
+            player.update(time);
+            clearEntities(time);
+            
+            computeEntities(player, window, time);
+            window.setView(view);
+            window.draw(player.sprite);
+          
+        
+        if (!player.life)
+        {
+            //TODO: you died!
+            isDead = true;
+            window.clear(sf::Color::Black);
+            txtDead.setPosition(view.getCenter());
+            window.draw(txtDead);
+            window.display();   
+            sleep(4);
+            return false;
         }
-       
-		player.update(time);
-		window.setView(view);
-		window.draw(player.sprite);
-		window.display();
-	}
+        
+        if (cntEnemiesAll == cntEnemiesElapsed)
+        {
+            txtWin.setPosition(view.getCenter().x-128, view.getCenter().y-64);
+            window.draw(txtWin);
+        }
+        
+        showInfo(window, player);
+
+        window.display();
+
+    }
     return false;
     
 }
 
 void GameRunning(RenderWindow &window)
 {
-    std::cout << "LOG: game is starting" << std::endl;
 
     if (startGame(window))
-        GameRunning(window);
+            GameRunning(window);
+       // else Menu(window);
 }
+
+// void menuLoop(RenderWindow &window)
+// {
+//     std::cout << "LOG: game is starting" << std::endl;
+// 
+//     isDead = false;
+//     Menu(window);
+//     GameRunning(window);
+//     if (isDead)
+//         menuLoop(window);
+// }
 
 int main(int argc, char **argv) {
     
@@ -97,7 +119,10 @@ int main(int argc, char **argv) {
     std::cout << "LOG: app is starting" << std::endl;
     loadResources();
     RenderWindow window(VideoMode( 1366, 768), "The Game", Style::Fullscreen);
+    window.setVerticalSyncEnabled(true);
+    Menu(window);
     GameRunning(window);     
+    //menuLoop(window);
     std::cout << "LOG: app is closed" << std::endl;
 
     return 0;

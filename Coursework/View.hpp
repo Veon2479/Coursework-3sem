@@ -1,4 +1,6 @@
-#pragma once
+#ifndef VIEW_HPP_INCLUDED
+#define VIEW_HPP_INCLUDED
+
 
 #include <SFML/Graphics.hpp>
 using namespace sf;
@@ -24,3 +26,5 @@ void setView (float tmpX, float tmpY)
                 tmpY = bottomYBorder;
     view.setCenter(tmpX, tmpY);
 }
+
+#endif // VIEW_HPP_INCLUDED
